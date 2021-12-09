@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e7e7e7;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 129, 129);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__info{
+    width: 200px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.logo{
+    margin-left: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header__mail{
+    text-decoration: none;
+    color: white;
+}
+
+.header__number{
+     font-size: 28px;
+     font-weight: 900;
+}
+
+.nav{
+    background-color: aqua; 
+    width: 100%;
+    height: 300px;   
+}
+
+.nav__inner{
+    margin: 0 auto;
+    width: 90%;
+    height: 70px;
+    background-color: rgb(0, 204, 204);
+    border:2px rgb(11, 165, 162) solid;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__inner__items{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main{
+    width: 100%;
+    position: absolute;
+    top: 250px;
+}
+
+.main__head{
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    background-image: url(https://img3.akspic.ru/previews/1/0/5/6/6/166501/166501-mikael_gustafsson_malenkaya_pamyat-oblako-rastenie-atmosfera-voda-550x310.jpg);
+}
+
+.main__head_items h2{
+  color: white;
+}
+
+.main__head_items p{
+    color:yellow;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.main__head_items_links{
+    padding-top: 15px;
+    margin: 0 auto;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main__head_items_links img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+
+}
+
+.main__head_items_buttons{
+    padding-top: 6px;
+    display: flex; 
+    width: 350px;
+    margin: 0 auto;
+    justify-content: space-between;
+} 
+
+
+.main__head_items_buttons a{
+    background-color: aqua;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 2px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main__info{
+    display: flex;
+     width: 90%;
+     height: 300px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+
+.main__aboutMe h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main__aboutMe span{
+    color: aqua;
+    font-size: 20px;
+}
+
+.main__aboutMe p{
+    padding-bottom: 15px;
+    border-bottom: 2px dotted black;
+    max-width: 650px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main__Basic{
+    margin-left: 100px;
+}
+
+.main__Basic h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.main__Basic p{
+    max-width: 650px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.main__Basic span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #414144;
+    margin-left: 50px;
+}
+
+.main__skilz{
+    margin:50px 0 0 67px;
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    padding: 50px;
+}
+
+.main__skilz h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.main__skilz p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.main__skilz_BagLine{
+    background-color: gray;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.main__skilz_line{
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 40%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    animation: lineColor 3s 1;
+}
+
+.main__skilz_line_color{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 100%;
+    animation: line 3s 1;
+    margin-left: 250px
+}
+
+@keyframes line {
+    0%{
+       margin-left: 0;
+    }
+    100%{
+    margin-left: 250px;
+    }
+}
+
+@keyframes lineColor {
+    0%{
+    width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+
+.main__skilz_BagLine2{
+    background-color: gray;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.main__skilz_line2{
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 80%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    animation: lineColor2 3s 1;
+}
+
+.main__skilz_line_color2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 100%;
+    animation: line2 3s 1;
+    margin-left: 520px
+}
+
+@keyframes line2 {
+    0%{
+       margin-left: 0;
+    }
+    100%{
+    margin-left: 520px;
+    }
+}
+
+@keyframes lineColor2 {
+    0%{
+    width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.main__skilz_BagLine3{
+    background-color: gray;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.main__skilz_line3{
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 70%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    animation: lineColor3 3s 1;
+}
+
+.main__skilz_line_color3{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 100%;
+    animation: line3 3s 1;
+    margin-left: 450px;
+}
+
+@keyframes line3 {
+    0%{
+       margin-left: 0;
+    }
+    100%{
+    margin-left: 450px;
+    }
+}
+
+@keyframes lineColor3 {
+    0%{
+    width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
+.main__skilz_BagLine4{
+    background-color: gray;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.main__skilz_line4{
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 50%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    animation: lineColor4 3s 1;
+}
+
+.main__skilz_line_color4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 100%;
+    animation: line4 3s 1;
+    margin-left: 300px
+}
+
+@keyframes line4 {
+    0%{
+       margin-left: 0;
+    }
+    100%{
+    margin-left: 300px;
+    }
+}
+
+@keyframes lineColor4 {
+    0%{
+    width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+.main__skilz_BagLine5{
+    height: 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.main__skilz_line5{
+    margin-top: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+    width: 70%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    animation: lineColor5 3s 1;
+}
+
+.main__skilz_line_color5{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color:white;
+    border-radius: 100%;
+    animation: line5 3s 1;
+    margin-left: 450px
+}
+
+@keyframes line5 {
+    0%{
+       margin-left: 0;
+    }
+    100%{
+    margin-left: 450px;
+    }
+}
+
+@keyframes lineColor5 {
+    0%{
+    width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
